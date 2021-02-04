@@ -57,6 +57,9 @@ public class Homepage extends Base{
 	public void teardown()
 	{
 		driver.close();
+		System.out.println("Git example 1");
+		System.out.println("Git example 2");
+		System.out.println("Git example 3");
 	}
 	
 	

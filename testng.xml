@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+<listeners>
+<listener class-name="Academy.Listeners"></listener>
+</listeners>
+
+  <test name="Home page Test">
+    <classes>
+      <class name="Academy.Homepage"/>
+      </classes>
+      </test>
+      
+     
+      
+       <test name="Register page Test">
+    <classes>
+      <class name="Academy.RegisterButton"/>
+      </classes>
+      </test>
+      
+      <test name="Validation of Title page">
+      <classes>
+      <class name="Academy.validatetitle"/>
+      </classes>
+      </test>
+      
+      <test name="validation of navigation page">
+      <classes>
+      <class name="Academy.ValidateNavigationBar"/>
+      </classes>
+      </test>
+      
+      <test name="App test page">
+      <classes>
+      <class name="Academy.AppTest"/>
+    </classes>
+    </test>
+  
+</suite> <!-- Suite -->

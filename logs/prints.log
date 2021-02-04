@@ -1,0 +1,3 @@
+14:51:27.946 [TestNG] INFO  resources.Base - Navigated to Home page
+14:51:58.680 [TestNG] INFO  resources.Base - Restricted user
+14:52:05.029 [TestNG] INFO  resources.Base - non restricted user

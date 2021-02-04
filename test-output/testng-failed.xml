@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test name="Register page Test(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.RegisterButton">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.RegisterButton -->
+      <class name="Academy.validatetitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.validatetitle -->
+      <class name="Academy.Homepage">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Homepage -->
+      <class name="Academy.ValidateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- Register page Test(failed) -->
+  <test name="Validation of Title page(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.RegisterButton">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.RegisterButton -->
+      <class name="Academy.validatetitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.validatetitle -->
+      <class name="Academy.Homepage">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Homepage -->
+      <class name="Academy.ValidateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- Validation of Title page(failed) -->
+  <test name="validation of navigation page(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.RegisterButton">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.RegisterButton -->
+      <class name="Academy.validatetitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.validatetitle -->
+      <class name="Academy.Homepage">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Homepage -->
+      <class name="Academy.ValidateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="validateAppNavBar"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- validation of navigation page(failed) -->
+</suite> <!-- Failed suite [Suite] -->
